@@ -15,7 +15,7 @@ const values = [
   {
     icon: Award,
     title: 'Original art painting',
-    
+    desc: 'Setiap karya adalah ekspresi autentik dari jiwa seniman.',
   },
   {
     icon: Heart,
