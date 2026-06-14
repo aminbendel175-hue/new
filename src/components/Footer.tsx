@@ -16,7 +16,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="bg-red border-t border-white/5 py-14 px-6 lg:px-10">
+    <footer className="bg-[#14070d] border-t border-white/5 py-14 px-6 lg:px-10">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-10">
           <a href="#home" className="text-white font-bold text-xl tracking-widest uppercase">
