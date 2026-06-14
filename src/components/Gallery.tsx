@@ -17,7 +17,7 @@ const artworks = [
     media: 'Acrylic on canvas',
     year: '2025',
     src: '/images/lukisan2.jpg',
-    description: `“Chaos Line” menggambarkan bahwa kehidupan tidak pernah berjalan dalam garis yang lurus.`,
+    description: `"Chaos Line" menggambarkan bahwa kehidupan tidak pernah berjalan dalam garis yang lurus.`,
   },
 
   {
@@ -26,13 +26,13 @@ const artworks = [
     media: 'Acrylic on canvas',
     year: '2025',
     src: '/images/lukisan3.jpg',
-    description: `“Tropical Leaves” merepresentasikan hubungan manusia dengan alam sebagai sumber ketenangan dan kehidupan.`,
+    description: `"Tropical Leaves" merepresentasikan hubungan manusia dengan alam sebagai sumber ketenangan dan kehidupan.`,
   },
 
   {
     id: 4,
     title: 'Green field',
-    media: 'Acrylic on camvas',
+    media: 'Acrylic on canvas',
     year: '2025',
     src: '/images/lukisan4.jpg',
     description: 'Lukisan suasana persawahan hijau dengan 2 pohon ketenangan.',
@@ -158,7 +158,7 @@ export default function Gallery() {
                 </p>
 
                 <p className="text-white/60 text-sm font-light">
-                  {art.medium} • {art.year}
+                  {art.media} • {art.year}
                 </p>
               </div>
 
@@ -204,7 +204,7 @@ export default function Gallery() {
                 </h2>
 
                 <p className="text-white/60 mb-6 text-sm md:text-base">
-                  {selected.medium} • {selected.year}
+                  {selected.media} • {selected.year}
                 </p>
 
                 <p className="text-white/80 leading-relaxed italic text-lg">
